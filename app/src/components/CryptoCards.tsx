@@ -49,7 +49,9 @@ const CryptoCards: React.FC<CryptoCardsProps> = ({
     const fetchData = async () => {
       try {
         setLoading(true);
-        const response = await axios.get("http://localhost:3000/api/crypto");
+        const response = await axios.get(
+          "https://cryptoindex.onrender.com/api/crypto"
+        );
         setCryptoData(response.data.data);
       } catch (error) {
         console.error("Error fetching data:", error);
