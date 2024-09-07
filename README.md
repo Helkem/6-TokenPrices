@@ -4,7 +4,7 @@ Web3 application to track the latest prices, market caps, and more for your favo
 
 ## Description
 Built with React with Typescript Vite and Node.js. Requires a CoinMarketCap Api key for full functionality.  
-Search from the top 100 Cryptocurrencies and track their prices, add your favorites to your watchlist, sort through by rank, marketcap, and price.
+Search from the top 100 cryptocurrencies and add favorites to your watchlist, filter by rank, marketcap, and price.
 
 ### Dependencies
 * Requires Node.js
